@@ -1,0 +1,19 @@
+{
+  "name": "alfred-brutto-netto-rechner-aut",
+  "version": "1.0.0",
+  "description": "Brutto-Netto-Rechner für Österreich / Gross-Net-Calculator for Austria",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "author": {
+    "name": "Marc Krenn",
+    "email": "marc.krenn@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.8.0",
+    "npm": "^6.4.1"
+  }
+}
