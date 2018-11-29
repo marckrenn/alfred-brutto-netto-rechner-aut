@@ -2,7 +2,7 @@
 
 > [Alfred 3](https://www.alfredapp.com) workflow to convert between gross and net income for Austria.
 
-Uses the undocumented, public API from the Bundesministerium für Finanzen [Bundesministerium für Finanzen](https://www.bmf.gv.at/services/berechnungsprogramme/berechnungsprogramme.html) by [CPU Informatik GmbH](https://www.cpulohn.at/Wordpress/?page_id=844).<br>
+Uses the undocumented, public API from the [Bundesministerium für Finanzen](https://www.bmf.gv.at/services/berechnungsprogramme/berechnungsprogramme.html) by [CPU Informatik GmbH](https://www.cpulohn.at/Wordpress/?page_id=844).<br>
 
 
 ## Install
