@@ -1,4 +1,3 @@
-
 const alfy = require('alfy');
 
 function formatMoney(string) {
@@ -43,58 +42,64 @@ alfy.fetch('https://cpurechner.azurewebsites.net/api/OldRequest', {
   output = []
 
   // Net Month
-  netMonth = {};
-  netMonth.title = formatMoney(data.netto);
-  netMonth.subtitle = `Netto / Monat`;
-  netMonth.arg = formatMoney(data.netto);
-  netMonth.icon = {
-    path: "icons/net.png"
-  }
+  netMonth = {
+    title: formatMoney(data.netto),
+    subtitle: `Netto / Monat`,
+    arg: formatMoney(data.netto),
+    icon: {
+      path: "icons/net.png"
+    }
+  };
 
   // Gross Month
-  grossMonth = {};
-  grossMonth.title = formatMoney(data.brutto);
-  grossMonth.subtitle = `Brutto / Monat`;
-  grossMonth.arg = data.brutto;
-  grossMonth.icon = {
-    path: "icons/gross.png"
-  }
+  grossMonth = {
+    title: formatMoney(data.brutto),
+    subtitle: `Brutto / Monat`,
+    arg: data.brutto,
+    icon = {
+      path: "icons/gross.png"
+    }
+  };
 
   // Net Year
-  netYear = {};
-  netYear.title = formatMoney(data.nettojahr);
-  netYear.subtitle = `Netto / Jahr`;
-  netYear.arg = data.nettojahr;
-  netYear.icon = {
-    path: "icons/net.png"
-  }
+  netYear = {
+    title: formatMoney(data.nettojahr),
+    subtitle: `Netto / Jahr`,
+    arg: data.nettojahr,
+    icon: {
+      path: "icons/net.png"
+    }
+  };
 
   // Gross Year
-  grossYear = {};
-  grossYear.title = formatMoney(data.bruttojahr);
-  grossYear.subtitle = `Brutto / Jahr`;
-  grossYear.arg = data.bruttojahr;
-  grossYear.icon = {
-    path: "icons/gross.png"
-  }
+  grossYear = {
+    title: formatMoney(data.bruttojahr),
+    subtitle: `Brutto / Jahr`,
+    arg: data.bruttojahr,
+    icon: {
+      path: "icons/gross.png"
+    }
+  };
 
   // Vacation Pay
-  vacationPay = {};
-  vacationPay.title = formatMoney(data.nettosz1);
-  vacationPay.subtitle = `Urlaubsgeld`;
-  vacationPay.arg = data.nettosz1;
-  vacationPay.icon = {
-    path: "icons/vacationPay.png"
-  }
+  vacationPay = {
+    title: formatMoney(data.nettosz1),
+    subtitle: `Urlaubsgeld`,
+    arg: data.nettosz1,
+    icon: {
+      path: "icons/vacationPay.png"
+    }
+  };
 
   // Christmas Bonus
-  christmasBonus = {};
-  christmasBonus.title = formatMoney(data.nettosz2);
-  christmasBonus.subtitle = `Weihnachtsremuneration`;
-  christmasBonus.arg = data.nettosz2;
-  christmasBonus.icon = {
-    path: "icons/christmasBonus.png"
-  }
+  christmasBonus = {
+    title: formatMoney(data.nettosz2),
+    subtitle: `Weihnachtsremuneration`,
+    arg: data.nettosz2,
+    icon: {
+      path: "icons/christmasBonus.png"
+    }
+  };
 
 
   if (mode === "nettobrutto") {
