@@ -1,19 +1,44 @@
 {
-  "name": "alfred-brutto-netto-rechner-aut",
-  "version": "1.0.0",
-  "description": "Brutto-Netto-Rechner für Österreich / Gross-Net-Calculator for Austria",
-  "main": "index.js",
-  "scripts": {
-    "postinstall": "alfy-init",
-    "preuninstall": "alfy-cleanup"
+  "_from": "alfred-brutto-netto-rechner-aut",
+  "_id": "alfred-brutto-netto-rechner-aut@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-y+D8ocW0Y1mEQDBahP+MAWj9kvv3YgCn/OHkdPwORh+npEUfeX5g7YNkpSEeVWKdsn+4zK0ag4AVyjHKeEs71w==",
+  "_location": "/alfred-brutto-netto-rechner-aut",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "alfred-brutto-netto-rechner-aut",
+    "name": "alfred-brutto-netto-rechner-aut",
+    "escapedName": "alfred-brutto-netto-rechner-aut",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/alfred-brutto-netto-rechner-aut/-/alfred-brutto-netto-rechner-aut-1.0.0.tgz",
+  "_shasum": "2fb00541571951b75e4bf342ce7d7d0385f23ea3",
+  "_spec": "alfred-brutto-netto-rechner-aut",
+  "_where": "/Users/marckrenn",
   "author": {
     "name": "Marc Krenn",
     "email": "marc.krenn@gmail.com"
   },
-  "license": "MIT",
+  "bundleDependencies": false,
   "dependencies": {
     "alfy": "^0.8.0",
     "npm": "^6.4.1"
-  }
+  },
+  "deprecated": false,
+  "description": "Brutto-Netto-Rechner für Österreich / Gross-Net-Calculator for Austria",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "alfred-brutto-netto-rechner-aut",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "version": "1.0.2"
 }

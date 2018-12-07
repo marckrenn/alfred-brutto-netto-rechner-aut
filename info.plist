@@ -58,7 +58,7 @@
 	<key>createdby</key>
 	<string>Marc Krenn</string>
 	<key>description</key>
-	<string>Konvertiert Brutto- in Nettogehalt und vice versa</string>
+	<string>Brutto-Netto-Rechner für Österreich / Gross-Net-Calculator for Austria</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -75,9 +75,9 @@
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>copied to clipboard</string>
+				<string>Copied to clipboard</string>
 				<key>title</key>
-				<string>€ {query}</string>
+				<string>{var:formatted}</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
@@ -186,7 +186,7 @@
 				<key>autopaste</key>
 				<false/>
 				<key>clipboardtext</key>
-				<string>{query}</string>
+				<string>{var:raw}</string>
 				<key>transient</key>
 				<false/>
 			</dict>
@@ -199,39 +199,98 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Brutto-Netto-Rechner für Österreich / Gross-Net-Calculator for Austria</string>
 	<key>uidata</key>
 	<dict>
 		<key>8CB4A2D4-ED61-4E2F-8977-B9387E0D0C34</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>netto [betrag] [optional: jahr, jährlich, pa, p.a.]
+
+⇧ halten um …
+
+… bei selektierten Brutto-Betrag zwischen monatliche und jährliche Umrechnung zu wechseln.
+
+… bei selektierten Urlaubsgeld auf die Weihnachtsremuneration zu wechseln.</string>
 			<key>xpos</key>
-			<integer>130</integer>
+			<integer>210</integer>
 			<key>ypos</key>
-			<integer>180</integer>
+			<integer>160</integer>
 		</dict>
 		<key>B2DBE098-C91A-4586-927C-E072DD339802</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>note</key>
+			<string>brutto [betrag] [optional: jahr, jährlich, pa, p.a.]
+
+⇧ halten um …
+
+… bei selektierten Netto-Betrag zwischen monatliche und jährliche Umrechnung zu wechseln.
+
+… bei selektierten Urlaubsgeld auf die Weihnachtsremuneration zu wechseln.</string>
 			<key>xpos</key>
-			<integer>130</integer>
+			<integer>210</integer>
 			<key>ypos</key>
-			<integer>300</integer>
+			<integer>480</integer>
 		</dict>
 		<key>C252D17D-BA49-4A18-8163-8F3B50C6A296</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
 			<key>xpos</key>
-			<integer>330</integer>
+			<integer>550</integer>
 			<key>ypos</key>
-			<integer>180</integer>
+			<integer>160</integer>
 		</dict>
 		<key>C75DEF46-6E32-4720-90F9-C50A3F0023A3</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
 			<key>xpos</key>
-			<integer>330</integer>
+			<integer>550</integer>
 			<key>ypos</key>
-			<integer>300</integer>
+			<integer>480</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>bn_avab</key>
+		<string>false</string>
+		<key>bn_bundesland</key>
+		<string>wien</string>
+		<key>bn_freibetrag</key>
+		<string>0</string>
+		<key>bn_jahr</key>
+		<string>201807</string>
+		<key>bn_mvk</key>
+		<string>false</string>
+		<key>bn_pendler</key>
+		<string>0</string>
+		<key>bn_pendlereuro</key>
+		<string>3</string>
+		<key>bn_pendlergross</key>
+		<string>false</string>
+		<key>bn_pendlerkm</key>
+		<string>0</string>
+		<key>bn_sachbezug</key>
+		<string>0</string>
+		<key>bn_svsymbol</key>
+		<string>0</string>
+		<key>fb_kif</key>
+		<string>false</string>
+		<key>fb_kinderOver18</key>
+		<string>0</string>
+		<key>fb_kinderUnder18</key>
+		<string>0</string>
+		<key>fb_teilung</key>
+		<string>false</string>
+	</dict>
+	<key>version</key>
+	<string>1.0.2</string>
 	<key>webaddress</key>
-	<string>https://github.com/marckrenn/alfred-brutto-netto-rechner-aut</string>
+	<string></string>
 </dict>
 </plist>

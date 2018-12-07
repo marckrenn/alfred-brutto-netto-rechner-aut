@@ -17,7 +17,10 @@ $ npm install --global alfred-brutto-netto-rechner-aut
 ## Usage
 
 In Alfred, type `netto` or `brutto`, followed by the income you want to convert.</br>
-Optionally, you can append `jahr`, `jährlich`, `p.a.` to define a yearly income.
+Optionally, append `jahr`, `jährlich`, `p.a.` to define a yearly income.</br>
+Hold the shift-key to switch between the converted monthly / yearly value.</br>
+Hit return to copy the selected value to the clipboard.
+
 
 
 ## Related
