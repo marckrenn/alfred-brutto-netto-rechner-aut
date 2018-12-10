@@ -27,7 +27,7 @@ $ npm install --global alfred-brutto-netto-rechner-aut
 
 -  This Workflow was created with [alfy](https://github.com/sindresorhus/alfy) by [Sindre Sorhus](https://github.com/sindresorhus).
 - [alfred-emoji](https://github.com/sindresorhus/alfred-emoj) - This repo's readme was blatantly used as a template.
-
+- [Alfredforum discussion](https://www.alfredforum.com/topic/12083-brutto-netto-rechner-österreich-gross-net-income-calc-austria)
 
 
 ## License
