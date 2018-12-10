@@ -1,6 +1,6 @@
 {
   "_from": "alfred-brutto-netto-rechner-aut",
-  "_id": "alfred-brutto-netto-rechner-aut@1.0.2",
+  "_id": "alfred-brutto-netto-rechner-aut@1.0.3",
   "_inBundle": false,
   "_integrity": "sha512-y+D8ocW0Y1mEQDBahP+MAWj9kvv3YgCn/OHkdPwORh+npEUfeX5g7YNkpSEeVWKdsn+4zK0ag4AVyjHKeEs71w==",
   "_location": "/alfred-brutto-netto-rechner-aut",
@@ -40,5 +40,7 @@
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
   },
-  "version": "1.0.2"
+  "readme": "README.md",
+  "keywords": ["Brutto", "Netto", "rechner", "calculator", "Austria", "Aut", "Österreich", "finance", "finanzen"],
+  "version": "1.0.3"
 }
